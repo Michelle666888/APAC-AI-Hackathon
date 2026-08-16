@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#09070b" />
+    <meta
+      name="description"
+      content="APAC Operations AI Capability Uplift and the 1st APAC Ops AI Hackathon."
+    />
+    <title>AI Genesis — APAC Ops AI Hackathon</title>
+    <link rel="stylesheet" href="styles.css?v=20260816-2" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand" href="#uplift" aria-label="AI Genesis home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>AI GENESIS</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Page sections">
+        <a href="#uplift" data-section-link="uplift">Uplift</a>
+        <a href="#register" data-section-link="register">Register</a>
+        <a href="#timeline" data-section-link="timeline">Timeline</a>
+        <a href="#toolkit" data-section-link="toolkit">Toolkit</a>
+        <a href="#team" data-section-link="team">Team</a>
+      </nav>
+
+      <div class="section-count" aria-live="polite">
+        <span id="current-section">01</span><span class="count-rule"></span><span>04</span>
+      </div>
+    </header>
+
+    <div class="scroll-progress" aria-hidden="true"><span id="scroll-progress-bar"></span></div>
+
+    <main id="main">
+      <section class="act act-uplift" id="uplift" data-section="01">
+        <div class="ambient ambient-blue" aria-hidden="true"></div>
+        <div class="act-shell hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow"><span>01</span> APAC Operations · 2026</p>
+            <h1>AI <span>GENESIS</span></h1>
+            <p class="hero-kicker">The 1st APAC Ops AI Hackathon</p>
+            <p class="vision">Powered by AI, <em>inspired by human.</em></p>
+            <p class="hero-intro">
+              Building an AI-enabled APAC Operations workforce—turning curiosity into
+              capability, business opportunities into prototypes, and individual learning
+              into regional collaboration.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#timeline">Explore the journey <span aria-hidden="true">↓</span></a>
+              <a class="button button-ghost" href="#register">Registration details</a>
+            </div>
+          </div>
+
+          <figure class="kv-frame kv-frame-hero reveal" aria-label="AI Genesis key visual">
+            <img src="assets/capability-uplift-kv-landscape-16x9.png" alt="Complete AI Genesis key visual in a landscape frame" />
+            <figcaption>Intelligent Operations. Human Ingenuity.</figcaption>
+          </figure>
+        </div>
+
+        <div class="act-shell content-block">
+          <div class="section-heading reveal">
+            <p class="eyebrow"><span>Capability Uplift</span> Advance Critical Capabilities</p>
+            <h2>One ambition.<br />Three connected experiences.</h2>
+            <p>
+              The APAC AI Capability Uplift initiative supports Ops2030 by helping colleagues
+              understand when and how to use AI responsibly, identify high-value opportunities,
+              and build confidence through practical experience.
+            </p>
+          </div>
+
+          <div class="pillar-grid" aria-label="Program pillars">
+            <article class="pillar-card reveal">
+              <span class="card-number">01</span>
+              <p class="card-label">Leadership</p>
+              <h3>AI Boot Camp</h3>
+              <p>Align leaders around real business use cases, AI value, and opportunity prioritisation.</p>
+            </article>
+            <article class="pillar-card featured reveal">
+              <span class="card-number">02</span>
+              <p class="card-label">Experimentation</p>
+              <h3>AI Hackathon</h3>
+              <p>Bring cross-functional teams together to shape business opportunities and build fast prototypes.</p>
+            </article>
+            <article class="pillar-card reveal">
+              <span class="card-number">03</span>
+              <p class="card-label">Everyone</p>
+              <h3>AI Skills for All</h3>
+              <p>Create ongoing learning through knowledge sharing, prompt challenges, podcasts, and community events.</p>
+            </article>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="act act-register" id="register" data-section="02">
+        <div class="ambient ambient-wine" aria-hidden="true"></div>
+        <div class="act-shell register-grid">
+          <div class="register-copy reveal">
+            <p class="eyebrow"><span>02</span> Hackathon Registration</p>
+            <h2>Bring the challenge.<br />Build what’s next.</h2>
+            <p>
+              Form a team, choose a real Operations opportunity, and prepare to turn it into a
+              tangible demo or prototype with peers across APAC.
+            </p>
+
+            <div class="deadline-card">
+              <div><span>Registration closes</span><strong>18 September 2026</strong></div>
+              <div class="countdown" aria-live="polite"><strong id="days-left">—</strong><span id="days-label">days left</span></div>
+            </div>
+
+            <ul class="registration-checklist">
+              <li>Plan for a team of 2–6 members</li>
+              <li>Cross-function, cross-site, and cross-country teams are encouraged</li>
+              <li>Bring a business opportunity—not a polished solution</li>
+            </ul>
+
+            <div class="registration-actions">
+              <button class="button button-primary" id="registration-button" disabled>Registration link coming soon</button>
+              <button class="text-button" id="copy-page-link">Copy this page link</button>
+              <span class="copy-status" id="copy-status" role="status"></span>
+            </div>
+          </div>
+
+          <div class="registration-visual reveal">
+            <figure class="kv-frame kv-frame-register" aria-label="Hackathon registration key visual">
+              <img src="assets/registration-kv-landscape-16x9.png" alt="Complete AI Genesis registration key visual in a landscape frame" />
+            </figure>
+
+            <div class="qr-card" aria-label="Hackathon registration QR code">
+              <a
+                class="qr-link"
+                href="https://forms.cloud.microsoft/e/7r0QrYmh4b"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open the APAC Ops AI Hackathon registration form"
+              >
+                <span class="qr-crop">
+                  <img src="assets/registration-qr-forms.png" alt="Microsoft Forms registration QR code" />
+                </span>
+              </a>
+              <div>
+                <p>Scan to register</p>
+                <a class="qr-url" href="https://forms.cloud.microsoft/e/7r0QrYmh4b" target="_blank" rel="noopener noreferrer">forms.cloud.microsoft/e/7r0QrYmh4b</a>
+                <strong>One submission is required per team.</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="act act-timeline" id="timeline" data-section="02">
+        <div class="ambient ambient-purple" aria-hidden="true"></div>
+        <div class="act-shell timeline-intro">
+          <figure class="kv-frame kv-frame-timeline reveal" aria-label="AI Hackathon key visual">
+            <img src="assets/hackathon-timeline-kv-landscape-16x9.png" alt="Complete APAC Ops AI Hackathon timeline key visual in a landscape frame" />
+          </figure>
+
+          <div class="timeline-copy reveal">
+            <p class="eyebrow"><span>Part 2</span> AI Hackathon Timeline</p>
+            <h2>From business opportunity<br />to working prototype.</h2>
+            <p>
+              A focused learning day followed by two rounds of team-based experimentation,
+              with external technical support during prototype development.
+            </p>
+
+            <div class="date-strip" aria-label="Key programme dates">
+              <div><span>Masterclass</span><strong>15 Sep · 09:00–16:00 GMT+8</strong></div>
+              <div><span>Register by</span><strong>18 Sep</strong></div>
+              <div><span>Hackathon</span><strong>21 Sep–17 Oct</strong></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="act-shell journey-block">
+          <div class="journey-rail" role="tablist" aria-label="Hackathon stages">
+            <button class="journey-node active" role="tab" aria-selected="true" aria-controls="journey-detail" data-stage="masterclass">
+              <span class="node-date">15 Sep · 09:00–16:00 GMT+8</span><strong>AI Masterclass</strong><span class="node-dot"></span>
+            </button>
+            <button class="journey-node" role="tab" aria-selected="false" aria-controls="journey-detail" data-stage="registration">
+              <span class="node-date">By 18 Sep</span><strong>Registration</strong><span class="node-dot"></span>
+            </button>
+            <button class="journey-node" role="tab" aria-selected="false" aria-controls="journey-detail" data-stage="round1">
+              <span class="node-date">21 Sep–02 Oct</span><strong>Round 1</strong><span class="node-dot"></span>
+            </button>
+            <button class="journey-node" role="tab" aria-selected="false" aria-controls="journey-detail" data-stage="round2">
+              <span class="node-date">07–17 Oct</span><strong>Round 2</strong><span class="node-dot"></span>
+            </button>
+          </div>
+
+          <article class="journey-detail reveal" id="journey-detail" tabindex="0" aria-live="polite">
+            <div>
+              <p id="stage-label" class="card-label">Learn · Practise · Prepare</p>
+              <h3 id="stage-title">One-day AI Masterclass</h3>
+              <p id="stage-description">
+                Delivered by AWS in English with a strong focus on hands-on experience. The live
+                session is open to all Hackathon teams, and the recording will be available to all
+                employees after the training.
+              </p>
+              <a class="agenda-link" id="stage-link" href="assets/amazon-quick-one-day-mastery-agenda.pdf" target="_blank" rel="noopener">View the AI One-Day Masterclass Agenda (PDF) <span aria-hidden="true">↗</span></a>
+            </div>
+            <ul id="stage-points">
+              <li>15 September · 09:00–16:00 GMT+8</li>
+              <li>Delivered by AWS in English</li>
+              <li>Recording available to all employees after the session</li>
+            </ul>
+            <span class="detail-watermark" id="stage-number" aria-hidden="true">01</span>
+          </article>
+        </div>
+
+        <div class="act-shell before-register reveal">
+          <details>
+            <summary>
+              <span><small>60-second read</small> Before you register</span>
+              <span class="summary-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="details-grid">
+              <div><strong>2–6 people</strong><span>Recommended team size</span></div>
+              <div><strong>Work across borders</strong><span>Cross-country and cross-site teams are encouraged</span></div>
+              <div><strong>At least one team</strong><span>Expected from each participating site</span></div>
+              <div><strong>Round 1</strong><span>Identify and articulate a business opportunity—no prototype required</span></div>
+              <div><strong>Round 2</strong><span>Develop a demo or prototype; advancement criteria are being finalised</span></div>
+              <div><strong>Build, then govern</strong><span>Outputs are demos/prototypes, not formal PoCs. Governance applies if selected for scaling or deployment</span></div>
+            </div>
+            <p class="details-note">
+              Existing Hackathon artifacts may be used as a starting point, provided the team demonstrates
+              meaningful upgrades, new features, or further iteration with regional scaling potential.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <section class="act act-toolkit" id="toolkit" data-section="03" aria-labelledby="toolkit-title">
+        <div class="ambient ambient-purple" aria-hidden="true"></div>
+        <div class="act-shell toolkit-shell">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow"><span>03</span> Hackathon Toolkit</p>
+              <h2 id="toolkit-title">Choose the right tool<br />for the way you build.</h2>
+            </div>
+            <p>
+              The proposed toolkit supports both business-led solution design and more technical
+              custom development. Select the platform that best fits your challenge, delivery skills,
+              and access needs.
+            </p>
+          </div>
+
+          <div class="toolkit-grid">
+            <article class="tool-track reveal">
+              <header>
+                <span class="track-level">Intermediate</span>
+                <h3>For business users and solution makers</h3>
+              </header>
+              <div class="tool-list">
+                <div class="tool-item open-access">
+                  <div><span>Microsoft 365</span><strong>Copilot Agent Builder</strong></div>
+                  <em class="access-badge available">Available to all employees</em>
+                </div>
+                <div class="tool-item open-access">
+                  <div><span>Microsoft</span><strong>Copilot Studio</strong></div>
+                  <em class="access-badge available">Available to all employees</em>
+                </div>
+                <div class="tool-item quick-trial">
+                  <div><span>AWS</span><strong>Amazon Quick</strong><small>Free trial access for Hackathon participants</small></div>
+                  <em class="access-badge trial">Free 2-week trial · Individual request</em>
+                </div>
+              </div>
+              <div class="use-cases">
+                <p>Suitable use cases</p>
+                <ul>
+                  <li>AI agents</li>
+                  <li>Knowledge assistants</li>
+                  <li>Automated workflows</li>
+                  <li>Data analysis</li>
+                  <li>Decision support</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="tool-track advanced reveal">
+              <header>
+                <span class="track-level">Advanced</span>
+                <h3>For technical or custom solutions</h3>
+              </header>
+              <div class="tool-list">
+                <div class="tool-item restricted-access">
+                  <div><span>Enterprise AI</span><strong>AI Gateway</strong></div>
+                  <em class="access-badge restricted">Additional access required</em>
+                </div>
+                <div class="tool-item restricted-access">
+                  <div><span>Developer tooling</span><strong>GitHub Copilot</strong></div>
+                  <em class="access-badge restricted">Additional access required</em>
+                </div>
+              </div>
+              <div class="use-cases">
+                <p>Suitable use cases</p>
+                <ul>
+                  <li>Rapid prototypes and custom business apps</li>
+                  <li>Workflow and process automation</li>
+                  <li>Data processing and reporting tools</li>
+                  <li>Employee self-service tools</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+
+          <p class="toolkit-note reveal">
+            Copilot Agent Builder and Copilot Studio are available to all employees. Amazon Quick offers a free two-week trial through individual application; AI Gateway and GitHub Copilot require additional access.
+          </p>
+        </div>
+      </section>
+
+      <section class="act act-team" id="team" data-section="04" aria-labelledby="team-title">
+        <div class="ambient ambient-blue" aria-hidden="true"></div>
+        <div class="act-shell team-block">
+          <div class="section-heading compact reveal">
+            <p class="eyebrow"><span>04</span> Meet the Team</p>
+            <h2 id="team-title">Questions? Contact the APAC AI Capability Uplift Core Team.</h2>
+          </div>
+          <div class="team-grid">
+            <article class="team-card reveal">
+              <img src="assets/michelle-ren-animated-v4.png" alt="Animated portrait of Michelle Ren" />
+              <div><p>Project Facilitator</p><h3>Michelle Ren</h3><span>Qingdao</span><a href="mailto:michelle.ren@astrazeneca.com">michelle.ren@astrazeneca.com</a></div>
+            </article>
+            <article class="team-card reveal">
+              <img src="assets/jinyu-zheng-animated-v4.png" alt="Animated portrait of Jinyu Zheng" />
+              <div><p>Project Facilitator</p><h3>Jinyu Zheng</h3><span>Maihara</span><a href="mailto:jinyu.zheng@astrazeneca.com">jinyu.zheng@astrazeneca.com</a></div>
+            </article>
+            <article class="team-card reveal">
+              <img src="assets/hyde-lu-animated-v4.png" alt="Animated portrait of Hyde Lu" />
+              <div><p>IT Coach</p><h3>Hyde Lu</h3><span>Qingdao</span><a href="mailto:hyde.lu1@astrazeneca.com">hyde.lu1@astrazeneca.com</a></div>
+            </article>
+            <article class="team-card reveal">
+              <img src="assets/emma-sannum-animated-v4.png" alt="Animated portrait of Emma Sannum" />
+              <div><p>Regional PM</p><h3>Emma Sannum</h3><span>North Ryde</span><a href="mailto:emma.sannum@astrazeneca.com">emma.sannum@astrazeneca.com</a></div>
+            </article>
+          </div>
+
+          <section class="sponsor-block reveal" aria-labelledby="sponsor-title">
+            <div class="sponsor-heading">
+              <p class="eyebrow"><span>Programme Sponsors</span> Executive sponsorship</p>
+              <h2 id="sponsor-title">Meet the Programme Sponsors.</h2>
+            </div>
+            <div class="sponsor-grid">
+              <article class="sponsor-card">
+                <img src="assets/chen-yan-animated-v4.png" alt="Animated portrait of Chen Yan" />
+                <div>
+                  <p>Senior IT BP · Sponsor</p>
+                  <h3>Chen Yan</h3>
+                  <span>Wuxi</span>
+                  <a href="mailto:yan.chen12@astrazeneca.com">yan.chen12@astrazeneca.com</a>
+                </div>
+              </article>
+              <article class="sponsor-card">
+                <img src="assets/angela-zhang-animated-v4.png" alt="Animated portrait of Angela Zhang" />
+                <div>
+                  <p>Regional HR · Sponsor</p>
+                  <h3>Angela Zhang</h3>
+                  <span>Shanghai</span>
+                  <a href="mailto:angela.zhang1@astrazeneca.com">angela.zhang1@astrazeneca.com</a>
+                </div>
+              </article>
+            </div>
+          </section>
+        </div>
+
+        <footer class="act-shell site-footer">
+          <div><span class="brand-mark" aria-hidden="true"></span><strong>AI GENESIS</strong></div>
+          <p>Powered by AI, inspired by human.</p>
+          <a href="#uplift">Back to top ↑</a>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>
